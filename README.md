@@ -8,10 +8,12 @@
 <img width="263" alt="Screenshot 2024-11-27 at 11 56 13" src="https://github.com/user-attachments/assets/7465b8bc-1ea3-478d-b7cb-785105c22bf0"> <img width="263" alt="Screenshot 2024-11-27 at 11 56 49" src="https://github.com/user-attachments/assets/9ddd8c6c-8841-440a-8b36-f709d0451d07">
 
 При нажатті кнопки ("New Game / Нова гра") з'являється вікно для вибору рівня складності для подальшої гри ( Easy, Medium, Hard):
+
 <img width="263" alt="Screenshot 2024-11-27 at 11 57 02" src="https://github.com/user-attachments/assets/a7310710-f6a6-49db-bda9-6ccc600c8b0d">
 
 Після вибору складності користувач автоматично переходить до вікна самої гри, де представлені ігрове поле, заповнене згенерованою головоломкою за 
 рівнем складності, та кнопки для перевірки рішення користувача ("Check / Перевірити"), оновлення ігрового поля ("Update / Оновити") та повернення до 
 головного меню ("Back / Назад"):
+
 <img width="263" alt="Screenshot 2024-11-27 at 12 13 53" src="https://github.com/user-attachments/assets/d0f52d60-3a52-42f4-a905-874be7582857"> <img width="263" alt="Screenshot 2024-11-27 at 12 14 02" src="https://github.com/user-attachments/assets/de852558-fbd8-454e-8074-8f27f324552a">
 
