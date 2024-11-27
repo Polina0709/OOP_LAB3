@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".About"
+    android:background="#EEF5FB">
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:textSize="55sp"
+        android:textColor="#507DC1"
+        android:text="@string/about"
+        android:fontFamily="@font/boomboom"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:gravity="center"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/aboutTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="21sp"
+            android:textColor="#355078"
+            android:text="@string/some_information_about_game"
+            android:layout_margin="20dp"
+            android:paddingBottom="30dp"
+            tools:ignore="UnusedAttribute" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBackM"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/back"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/boomboom"
+        android:textSize="24sp"
+        android:background="#507DC1"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
